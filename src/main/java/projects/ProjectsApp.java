@@ -139,6 +139,7 @@ public class ProjectsApp {
 		project.setProjectId(curProject.getProjectId());
 		project.setProjectName(Objects.isNull(projectName) ? curProject.getProjectName() : projectName);
 		project.setEstimatedHours(Objects.isNull(estimatedHours) ? curProject.getEstimatedHours() : estimatedHours);
+		project.setActualHours(Objects.isNull(actualHours) ? curProject.getActualHours() : actualHours);
 		project.setDifficulty(Objects.isNull(difficulty) ? curProject.getDifficulty() : difficulty);
 		project.setNotes(Objects.isNull(notes) ? curProject.getNotes() : notes);
 		
